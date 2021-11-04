@@ -1,5 +1,5 @@
 import React from "react";
-import "./Square.css";
+import "./Square.css"
 import "./index.css"
 import { useDispatch } from "react-redux";
 

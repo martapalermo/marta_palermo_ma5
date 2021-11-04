@@ -1,21 +1,7 @@
 const defaultState = [['', '','',''], 0];
 
 
-export default function boardReducer(state = defaultState, action) {
-   
-    // if (action.type === 'clickAction') {
-    //     const value = state[action.x][action.y];
-
-    //     if (value === action.curColor) {
-    //         state[action.x][action.y] = action.nextColor;
-    //         state[1] += 1;
-    //     } else {
-    //         state[action.x][action.y] = action.nextColor;
-    //         state[1] -= 1;
-    //     }
-    //     return [...state];
-    // }
-   
+export default function boardReducer(state = defaultState, action) {   
    
     switch (action.type) {
         case 'clickAction':
